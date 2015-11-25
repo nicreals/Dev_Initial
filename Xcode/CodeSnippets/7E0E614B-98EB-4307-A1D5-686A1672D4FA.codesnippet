@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nccp</string>
+	<string>nconcetoken</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,copy)&lt;#type#&gt; *&lt;#param#&gt;;</string>
+	<string>static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        &lt;#code#&gt;
+    });
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6D3BE170-F974-4E49-9FDF-DCCEF7A4D030</string>
+	<string>7E0E614B-98EB-4307-A1D5-686A1672D4FA</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>copy  指针属性</string>
+	<string>dispatch_once token代码块</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Copy property</string>
+	<string>dispatch_once token</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

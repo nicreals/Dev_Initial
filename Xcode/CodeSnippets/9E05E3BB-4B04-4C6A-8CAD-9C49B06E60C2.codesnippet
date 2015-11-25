@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nccp</string>
+	<string>ncweakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,copy)&lt;#type#&gt; *&lt;#param#&gt;;</string>
+	<string>__weak __typeof(self)weakSelf = self;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6D3BE170-F974-4E49-9FDF-DCCEF7A4D030</string>
+	<string>9E05E3BB-4B04-4C6A-8CAD-9C49B06E60C2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>copy  指针属性</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Copy property</string>
+	<string>Weak self snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
