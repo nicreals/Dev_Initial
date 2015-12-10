@@ -1,4 +1,4 @@
-#TO INITIAL CODE ENVIRIONMENT
+#INIT CODING ENVIRIONMENT
 
 
 ###Xcode themes dir path:###
@@ -7,15 +7,17 @@
 *~/Library/Developer/Xcode/UserData/FontAndColorThemes/*
 
 
+
 ###Xcode snippets dir path:###
 
 
 *~/Library/Developer/Xcode/UserData/CodeSnippets*
 
 
+
 ###Reveal Connection###
 **Terminal:**
-vim ~/.lldbinit
+*vim ~/.lldbinit*
 
 
 ```
@@ -26,15 +28,15 @@ command alias reveal_stop expr (void)[(NSNotificationCenter*)[NSNotificationCent
 
 ```
 
-该步骤其实是为lldb设置了4个别名，为了后续方便操作，这4个别名意义如下：
+**Copy to add this four breakpoint action**
 
-1. reveal_load_sim 为模拟器加载reveal调试用的动态链接库
+* reveal_load_sim 
 
-2. reveal_load_dev 为真机加载reveal调试用的动态链接库
+* reveal_load_dev 
 
-3. reveal_start 启动reveal调试功能
+* reveal_start 
 
-4. reveal_stop 结束reveal调试功能
+* reveal_stop
 
 
 **Breakpoint**

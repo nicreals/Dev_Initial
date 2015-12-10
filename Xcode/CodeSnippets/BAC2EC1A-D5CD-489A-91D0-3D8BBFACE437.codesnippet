@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ncALTableView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+
+    }
+    return self;
+}
+
+#pragma mark - View LifeCycle
+- (void)viewDidLoad{
+    [super viewDidLoad];
+
+}
+
+#pragma mark - DyBaseALTableViewController
+- (void)updateTableView{
+
+
+    [super updateTableView];
+}
+
+- (void)updateIndex{
+
+}
+
+- (void)refreshTableView{
+
+}
+
+- (void)getMoreTableView{
+
+}
+
+- (void)configCell:(__kindof UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath{
+
+
+}
+
+- (Class)cellClassAtIndexPath:(NSIndexPath *)indexPath{
+
+
+    return nil;
+}
+
+#pragma mark - UITableViewDataSource
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+
+
+    return 0;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+
+
+    return 0;
+}
+
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+}
+
+#pragma mark - private
+
+#pragma mark - action
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BAC2EC1A-D5CD-489A-91D0-3D8BBFACE437</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>初始化自适应高度控制器</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Init a ALTableViewController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
