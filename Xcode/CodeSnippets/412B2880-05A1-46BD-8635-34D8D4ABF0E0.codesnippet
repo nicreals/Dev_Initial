@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ncap</string>
+	<string>ncMasMake</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, assign)&lt;#type#&gt; &lt;#param#&gt;;</string>
+	<string>[&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+    &lt;#code#&gt;
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>600D6721-70BF-4CEA-A35E-6138614D2322</string>
+	<string>412B2880-05A1-46BD-8635-34D8D4ABF0E0</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>assign 指针属性</string>
+	<string>masonry 设置约束</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Assign property</string>
+	<string>masonry make snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,38 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ncap</string>
+	<string>ncInitView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, assign)&lt;#type#&gt; &lt;#param#&gt;;</string>
+	<string>- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self initView];
+        [self setConstraints];
+    }
+    return self;
+}
+
+
+- (void)initView {
+
+}
+
+- (void)setConstraints {
+
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>600D6721-70BF-4CEA-A35E-6138614D2322</string>
+	<string>57762AED-336E-465A-8A18-A789522639BF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>assign 指针属性</string>
+	<string>初始化View</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Assign property</string>
+	<string>init a view </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

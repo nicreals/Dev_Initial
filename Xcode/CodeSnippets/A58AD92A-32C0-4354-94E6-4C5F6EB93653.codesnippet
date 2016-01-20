@@ -9,7 +9,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,strong)&lt;#type#&gt; *&lt;#param#&gt;;</string>
+	<string>@property(nonatomic, strong)&lt;#type#&gt; *&lt;#param#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A58AD92A-32C0-4354-94E6-4C5F6EB93653</string>
 	<key>IDECodeSnippetLanguage</key>

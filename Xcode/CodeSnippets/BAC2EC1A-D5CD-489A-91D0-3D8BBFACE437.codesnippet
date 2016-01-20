@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ncALTableView</string>
+	<string>ncInitALTableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
 
@@ -18,50 +18,107 @@
     return self;
 }
 
-#pragma mark - View LifeCycle
-- (void)viewDidLoad{
+#pragma mark - LifeCycle
+- (void)viewDidLoad {
     [super viewDidLoad];
-
+    [self enablePullToRefresh];
+    [self enableInfiniteScrolling];
+    [self setConstraints];
+    [self updateTableView];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:YES];
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:YES];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:YES];
+}
+
+
 #pragma mark - DyBaseALTableViewController
-- (void)updateTableView{
+- (void)updateTableView {
 
 
     [super updateTableView];
 }
 
-- (void)updateIndex{
+- (void)updateIndex {
 
 }
 
-- (void)refreshTableView{
-
+- (void)refreshTableView {
+//    _tableView.mj_footer.hidden = YES;
+//    [_tableView hideNetErrorView];
+//    [self getCashcouponGetMore:NO success:^(GRNetworkResponse *response) {
+//        [self updateTableView];
+//        _tableView.mj_footer.hidden = NO;
+//        if (_cashCouponArray.count) {
+//            [self enableInfiniteScrolling];
+//            [_tableView hideNoDataView];
+//            _tableView.mj_footer.hidden = NO;
+//            if (_hasMore) {
+//                [_tableView.mj_footer resetNoMoreData];
+//            } else {
+//                [_tableView.mj_footer endRefreshingWithNoMoreData];
+//            }
+//
+//        }else {
+//            _tableView.mj_footer.hidden = YES;
+//            [_tableView showNoDataView];
+//        }
+//        [_tableView.mj_header performSelector:@selector(endRefreshing) withObject:nil afterDelay:0.3];
+//    } failure:^(NSString *message) {
+//        if (_cashCouponArray.count) {
+//            [_tableView showNetErrorViewWithTarget:_tableView.mj_header action:@selector(beginRefreshing)];
+//        }
+//        [MBProgressHUD hideDurationProgressHUDWithFailedMessage:message];
+//        [_tableView.mj_header performSelector:@selector(endRefreshing) withObject:nil afterDelay:0.3];
+//    }];
 }
 
-- (void)getMoreTableView{
-
+- (void)getMoreTableView {
+//    [self getCashcouponGetMore:YES success:^(GRNetworkResponse *response) {
+//        [self updateTableView];
+//        if (_hasMore) {
+//            [_tableView.mj_footer endRefreshing];
+//        } else {
+//            [_tableView.mj_footer endRefreshingWithNoMoreData];
+//        }
+//    } failure:^(NSString *message) {
+//        [MBProgressHUD hideDurationProgressHUDWithFailedMessage:message];
+//        [_tableView.mj_footer endRefreshing];
+//    }];
 }
 
-- (void)configCell:(__kindof UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath{
-
-
-}
-
-- (Class)cellClassAtIndexPath:(NSIndexPath *)indexPath{
+- (Class)cellClassAtIndexPath:(NSIndexPath *)indexPath {
 
 
     return nil;
 }
 
+
+- (void)configCell:(__kindof UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
+
+
+}
+
 #pragma mark - UITableViewDataSource
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 
 
     return 0;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
 
     return 0;
@@ -69,13 +126,13 @@
 
 #pragma mark - UITableViewDelegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
 }
 
-#pragma mark - private
+#pragma mark - Private
 
-#pragma mark - action
+#pragma mark - Action
 
 </string>
 	<key>IDECodeSnippetIdentifier</key>

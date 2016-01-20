@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ncap</string>
+	<string>ncEventTouchUpInside</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, assign)&lt;#type#&gt; &lt;#param#&gt;;</string>
+	<string>UIControlEventTouchUpInside</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>600D6721-70BF-4CEA-A35E-6138614D2322</string>
+	<string>C69CDCA2-D721-4979-BACD-BAB79E3656BF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>assign 指针属性</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Assign property</string>
+	<string>UIControlEventTouchUpInside</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
