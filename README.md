@@ -1,6 +1,6 @@
 #INIT CODING ENVIRIONMENT
 
-_____
+_______
 
 ###Xcode themes dir path:###
 
