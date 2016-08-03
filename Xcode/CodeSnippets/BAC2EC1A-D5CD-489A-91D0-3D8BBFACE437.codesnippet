@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ncInitALTableView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+
+    }
+    return self;
+}
+
+#pragma mark - LifeCycle
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self enablePullToRefresh];
+    [self enableInfiniteScrolling];
+    [self setConstraints];
+    [self updateTableView];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:YES];
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:YES];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:YES];
+}
+
+
+#pragma mark - DyBaseALTableViewController
+- (void)updateTableView {
+
+
+    [super updateTableView];
+}
+
+- (void)updateIndex {
+
+}
+
+- (void)refreshTableView {
+//    _tableView.mj_footer.hidden = YES;
+//    [_tableView hideNetErrorView];
+//    [self getCashcouponGetMore:NO success:^(GRNetworkResponse *response) {
+//        [self updateTableView];
+//        _tableView.mj_footer.hidden = NO;
+//        if (_cashCouponArray.count) {
+//            [self enableInfiniteScrolling];
+//            [_tableView hideNoDataView];
+//            _tableView.mj_footer.hidden = NO;
+//            if (_hasMore) {
+//                [_tableView.mj_footer resetNoMoreData];
+//            } else {
+//                [_tableView.mj_footer endRefreshingWithNoMoreData];
+//            }
+//
+//        }else {
+//            _tableView.mj_footer.hidden = YES;
+//            [_tableView showNoDataView];
+//        }
+//        [_tableView.mj_header performSelector:@selector(endRefreshing) withObject:nil afterDelay:0.3];
+//    } failure:^(NSString *message) {
+//        if (_cashCouponArray.count) {
+//            [_tableView showNetErrorViewWithTarget:_tableView.mj_header action:@selector(beginRefreshing)];
+//        }
+//        [MBProgressHUD hideDurationProgressHUDWithFailedMessage:message];
+//        [_tableView.mj_header performSelector:@selector(endRefreshing) withObject:nil afterDelay:0.3];
+//    }];
+}
+
+- (void)getMoreTableView {
+//    [self getCashcouponGetMore:YES success:^(GRNetworkResponse *response) {
+//        [self updateTableView];
+//        if (_hasMore) {
+//            [_tableView.mj_footer endRefreshing];
+//        } else {
+//            [_tableView.mj_footer endRefreshingWithNoMoreData];
+//        }
+//    } failure:^(NSString *message) {
+//        [MBProgressHUD hideDurationProgressHUDWithFailedMessage:message];
+//        [_tableView.mj_footer endRefreshing];
+//    }];
+}
+
+- (Class)cellClassAtIndexPath:(NSIndexPath *)indexPath {
+
+
+    return nil;
+}
+
+
+- (void)configCell:(__kindof UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
+
+
+}
+
+#pragma mark - UITableViewDataSource
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+
+
+    return 0;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+
+
+    return 0;
+}
+
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+
+}
+
+#pragma mark - Private
+
+#pragma mark - Action
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BAC2EC1A-D5CD-489A-91D0-3D8BBFACE437</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>初始化自适应高度控制器</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Init a ALTableViewController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
