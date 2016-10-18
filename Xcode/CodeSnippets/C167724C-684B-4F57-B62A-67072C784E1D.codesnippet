@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ncwp</string>
+	<string>wp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, weak)&lt;#type#&gt; *&lt;#param#&gt;;</string>
+	<string>@property (nonatomic, weak) &lt;#type#&gt; *&lt;#param#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C167724C-684B-4F57-B62A-67072C784E1D</string>
 	<key>IDECodeSnippetLanguage</key>

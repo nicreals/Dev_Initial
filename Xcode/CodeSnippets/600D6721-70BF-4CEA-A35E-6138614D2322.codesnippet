@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ncap</string>
+	<string>ap</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, assign)&lt;#type#&gt; &lt;#param#&gt;;</string>
+	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#param#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>600D6721-70BF-4CEA-A35E-6138614D2322</string>
 	<key>IDECodeSnippetLanguage</key>
