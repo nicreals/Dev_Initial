@@ -6,14 +6,14 @@
 	<string>ap</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#param#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>600D6721-70BF-4CEA-A35E-6138614D2322</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>assign 指针属性</string>
 	<key>IDECodeSnippetTitle</key>
