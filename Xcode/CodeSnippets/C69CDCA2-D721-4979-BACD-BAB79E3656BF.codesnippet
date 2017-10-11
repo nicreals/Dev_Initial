@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ncEventTouchUpInside</string>
+	<string>touchupinside</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -14,6 +14,8 @@
 	<string>C69CDCA2-D721-4979-BACD-BAB79E3656BF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>点击事件</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>UIControlEventTouchUpInside</string>
 	<key>IDECodeSnippetUserSnippet</key>

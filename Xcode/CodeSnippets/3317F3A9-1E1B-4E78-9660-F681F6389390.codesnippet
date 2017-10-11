@@ -3,22 +3,40 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weakself</string>
+	<string>sharedinstance</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak __typeof(self) weakSelf = self;
+	<string>#pragma mark - SharedInstance
+
+static &lt;#Class#&gt; *_instance = nil;
+
++ (instancetype)sharedInstance {
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        _instance = [[self alloc] init];
+    });
+    return _instance;
+}
+
+- (instancetype)init {
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        _instance = [super init];
+    });
+    return _instance;
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9E05E3BB-4B04-4C6A-8CAD-9C49B06E60C2</string>
+	<string>3317F3A9-1E1B-4E78-9660-F681F6389390</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>weak 对象</string>
+	<string>单例</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Weak self snippet</string>
+	<string>sharedInstance</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

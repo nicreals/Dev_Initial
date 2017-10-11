@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weakself</string>
+	<string>defdebug</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak __typeof(self) weakSelf = self;
-</string>
+	<string>#ifdef DEBUG
+&lt;#code#&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9E05E3BB-4B04-4C6A-8CAD-9C49B06E60C2</string>
+	<string>3788B94A-C13D-4D00-B8D9-F30DB2C5F30A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>weak 对象</string>
+	<string>Debug环境测试代码</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Weak self snippet</string>
+	<string>Debug Code</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
