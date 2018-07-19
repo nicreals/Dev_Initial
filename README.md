@@ -14,7 +14,24 @@ ___
 
 *~/Library/Developer/Xcode/UserData/CodeSnippets*
 
+###VSCode
 
+```
+"editor.fontFamily": "Monaco, Menlo,'Courier New', monospace",
+"markdown.preview.fontFamily": "-apple-system,Monaco, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'HelveticaNeue-Light', 'Ubuntu', 'Droid Sans', sans-serif",
+"editor.minimap.enabled": false,
+"editor.fontSize": 12,
+"editor.scrollbar.verticalScrollbarSize": 8,
+"editor.scrollbar.horizontalScrollbarSize": 8,
+"editor.fontFamily": "Monaco,Menlo,'Courier New', monospace",
+"workbench.editor.labelFormat": "default",
+"workbench.iconTheme": "file-icons",
+"markdown.preview.fontSize": 12,
+"workbench.colorTheme": "One Dark Pro",
+"workbench.activityBar.visible": false,
+"markdown-preview-enhanced.scrollSync": true,
+"markdown-preview-enhanced.previewTheme": "one-dark.css",
+```
 
 
 ###Reveal Connection###
