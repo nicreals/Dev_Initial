@@ -1,7 +1,9 @@
 # Nic's notes
 
 * Xcode
-    * CodeSnippets
-    * FontAndColorThemes
-* AppCode
-* Atom
+    * CodeSnippets  *~/Library/Developer/Xcode/UserData/CodeSnippets*
+    
+      
+    
+    
+
