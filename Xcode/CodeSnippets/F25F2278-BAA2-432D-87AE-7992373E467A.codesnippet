@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>touchupinside</string>
+	<string>wp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIControlEventTouchUpInside</string>
+	<string>@property (nonatomic, weak) &lt;#Class#&gt; *&lt;#Var#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C69CDCA2-D721-4979-BACD-BAB79E3656BF</string>
+	<string>F25F2278-BAA2-432D-87AE-7992373E467A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>点击事件</string>
+	<string>Weak Property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIControlEventTouchUpInside</string>
+	<string>Weak Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

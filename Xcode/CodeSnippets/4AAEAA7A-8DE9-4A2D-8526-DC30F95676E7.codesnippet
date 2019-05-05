@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>defdebug</string>
+	<string>sp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef DEBUG
-&lt;#code#&gt;
-#endif</string>
+	<string>@property (nonatomic, strong) &lt;#Class#&gt; *&lt;#Var#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3788B94A-C13D-4D00-B8D9-F30DB2C5F30A</string>
+	<string>4AAEAA7A-8DE9-4A2D-8526-DC30F95676E7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Debug环境测试代码</string>
+	<string>Strong Property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug Code</string>
+	<string>Strong Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

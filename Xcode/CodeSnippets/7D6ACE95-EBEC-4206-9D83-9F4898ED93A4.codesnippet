@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wp</string>
+	<string>ifav</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) &lt;#type#&gt; *&lt;#param#&gt;;</string>
+	<string>if (@available(ios &lt;#version#&gt;, *)) {
+       &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C167724C-684B-4F57-B62A-67072C784E1D</string>
+	<string>7D6ACE95-EBEC-4206-9D83-9F4898ED93A4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>弱类型指针属性</string>
+	<string>Available Check</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Weak property</string>
+	<string>Available Check</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
