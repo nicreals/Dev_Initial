@@ -3,15 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ifav</string>
+	<string>@av</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (@available(ios &lt;#version#&gt;, *)) {
-       &lt;#code#&gt;
-}</string>
+	<string>@available(ios &lt;#version#&gt;, *)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7D6ACE95-EBEC-4206-9D83-9F4898ED93A4</string>
 	<key>IDECodeSnippetLanguage</key>
