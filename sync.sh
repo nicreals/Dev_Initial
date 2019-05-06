@@ -12,7 +12,6 @@ echo "CodeSnippets:"
 ls CodeSnippets/
 echo " "
 echo "=========Pull Files ========="
-git status
 git add ./
 git commit -m "update"
 git pull origin master
