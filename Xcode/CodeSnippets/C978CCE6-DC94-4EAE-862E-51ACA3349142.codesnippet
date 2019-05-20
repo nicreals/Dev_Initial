@@ -6,16 +6,16 @@
 	<string>ap</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@available(ios &lt;#version#&gt;, *)</string>
+	<string>@property (nonatomic, assign) &lt;#Class#&gt; &lt;#var#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C978CCE6-DC94-4EAE-862E-51ACA3349142</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Assign Property</string>
+	<string>Assign Property </string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Assign Property</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -6,7 +6,7 @@
 	<string>@av</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@available(ios &lt;#version#&gt;, *)</string>

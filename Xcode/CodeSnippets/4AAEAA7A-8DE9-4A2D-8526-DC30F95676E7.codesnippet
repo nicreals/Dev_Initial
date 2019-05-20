@@ -6,7 +6,7 @@
 	<string>sp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, strong) &lt;#Class#&gt; *&lt;#var#&gt;;</string>
